@@ -1,4 +1,5 @@
 build/
+vvp/
 *.o
 *.vvp
 *.vcd
