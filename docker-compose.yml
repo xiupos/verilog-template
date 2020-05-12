@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  iverilog:
+    build: ./docker
+    container_name: iverilog
+    volumes:
+      - .:/iverilog
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    working_dir: /iverilog
+    command: bash
+    environment:
+      - DISPLAY=${DISPLAY}

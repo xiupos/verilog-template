@@ -1,0 +1,10 @@
+{
+  "name": "iverilog",
+  "dockerComposeFile": "docker-compose.vscode.yml",
+  "extensions": [
+    "mshr-h.veriloghdl"
+  ],
+  "service": "iverilog",
+  "workspaceFolder": "/iverilog",
+  "shutdownAction": "stopCompose"
+}
