@@ -16,7 +16,7 @@ $(VVP_OBJ): $(SOURCES)
 	mkdir -p $(VVP_DIR)
 	$(VC) $(VFLAGS) -t vvp -o $@ $^
 
-all: $(VVP_OBJ)
+build: $(VVP_OBJ)
 
 *.vcd: $(VVP_OBJ)
 	$(VP) $(VPFLAGS) $(VVP_OBJ)
