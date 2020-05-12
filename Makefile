@@ -1,5 +1,5 @@
 VC     	= iverilog
-VFLAGS 	=
+VFLAGS 	= -g2
 VP		 	= vvp
 VPFLAGS =
 WV  		= gtkwave
