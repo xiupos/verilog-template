@@ -7,6 +7,7 @@ services:
     volumes:
       - ../:/iverilog
       - /tmp/.X11-unix:/tmp/.X11-unix
+      - ${HOME}/.Xauthority:/root/.Xauthority
     working_dir: /iverilog
     command: sleep infinity
     environment:
