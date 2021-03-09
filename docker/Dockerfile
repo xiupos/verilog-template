@@ -1,4 +1,4 @@
-FROM debian:10.3
+FROM ubuntu:20.04
 
 RUN apt-get update && apt-get install -y \
   git \
