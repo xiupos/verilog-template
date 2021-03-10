@@ -2,6 +2,7 @@ version: "3.8"
 services:
   iverilog:
     build: ../docker
+    network_mode: "host"
     container_name: iverilog
     tty: true
     volumes:
